@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "task_eta": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["${PLUGIN_ROOT}/runtime.py", "mcp"],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

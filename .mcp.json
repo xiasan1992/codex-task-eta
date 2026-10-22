@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "task_eta": {
+      "command": "python",
+      "args": ["./runtime.py", "mcp"],
+      "cwd": "."
+    }
+  }
+}
